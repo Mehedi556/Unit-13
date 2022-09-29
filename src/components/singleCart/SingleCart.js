@@ -48,7 +48,11 @@ const handleAddNumber = (num) => {
         
        </div>
 
-       
+       <div className='mt-9 bg-white rounded-3xl w-[92%] mx-auto'>
+        <h1 className='font-bold text-2xl my-3'>Exercise Details</h1>
+        <h1 className='font-bold text-2xl text-left pl-5 pb-3'>Exercise time: {time}</h1>
+        <h1 className='font-bold text-2xl text-left pl-5 pb-3'>Break time: {number}</h1>
+       </div>
 
       
 
