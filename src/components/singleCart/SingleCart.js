@@ -54,7 +54,7 @@ const handleAddNumber = (num) => {
         <h1 className='font-bold text-2xl text-left pl-5 pb-3'>Break time: {number}</h1>
        </div>
 
-      
+       <button className="btn btn-ghost btn-outline w-[95%] my-10 justify-center">Activity Complited</button>
 
       </div>
      
