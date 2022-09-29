@@ -7,9 +7,10 @@ const SingleCart = ({workout}) => {
         time = time + single.Time;
     }
 // const [number , setNumber] = useState()
-let number = 0;
+// let number = 0;
 const handleAddNumber = (num) => {
-    let number = handleAddNumber();
+    console.log(num);
+    localStorage.setItem('number' , {num});
 }
 // console.log(number);
     return (
@@ -51,9 +52,8 @@ const handleAddNumber = (num) => {
        <div className='mt-9 bg-white rounded-3xl w-[92%] mx-auto'>
         <h1 className='font-bold text-2xl my-3'>Exercise Details</h1>
         <h1 className='font-bold text-2xl text-left pl-5 pb-3'>Exercise time: {time}</h1>
-        <h1 className='font-bold text-2xl text-left pl-5 pb-3'>Break time: {number}</h1>
+        <h1 className='font-bold text-2xl text-left pl-5 pb-3'>Break time:</h1>
        </div>
-
        <button className="btn btn-ghost btn-outline w-[95%] my-10 justify-center">Activity Complited</button>
 
       </div>
