@@ -23,7 +23,20 @@ const handleAddNumber = (num) => {
         </div>
        </div>
 
-       
+       <div className='flex text-2xl gap-4 justify-center bg-white rounded-3xl w-[92%] mx-auto py-4'>
+        <div>
+            <h1><span className='font-bold text-4xl'>75</span>  kg</h1>
+            <h1 className='font-bold text-2xl'>Weight</h1>
+        </div>
+        <div>
+            <h1><span className='font-bold text-4xl'>25</span> yrs</h1>
+            <h1 className='font-bold text-2xl'>Age</h1>
+        </div>
+        <div>
+            <h1><span className='font-bold text-4xl'>6.5</span></h1>
+            <h1 className='font-bold text-2xl'>Height</h1>
+        </div>
+       </div>
 
        
 
